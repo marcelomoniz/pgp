@@ -10,20 +10,7 @@ namespace Prime.Services
             Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
             Console.ReadKey();
         }
-        
-        static void InserindoDuplicidadeDeCodigo(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
-            Console.ReadKey();
-        }        
- 
-        static void InserindoDuplicidadeDeCodigoDois(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
-            Console.ReadKey();
-        }           
+                  
 
         public bool IsPrime(int candidate)
 
@@ -36,14 +23,7 @@ namespace Prime.Services
             if (candidate == 50)
             {
                 return false;
-            }
-            if (candidate == 50)
-            {
-                return false;
-            } else if (candidate == 50)
-            {
-                return false;
-            }             
+            }          
 
             throw new NotImplementedException("Please create a test first.");
         }
