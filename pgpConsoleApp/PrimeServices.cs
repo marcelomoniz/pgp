@@ -28,7 +28,7 @@ namespace Prime.Services
             if (candidate == 1)
             {
                 return false;
-            } elseif (candidate == 1)
+            } else if (candidate == 1)
             {
                 return false;
             }
