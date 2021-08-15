@@ -25,7 +25,19 @@ namespace Prime.Services
             {
                 return false;
             }
-
+            
+            if (candidate == 50)
+            {
+                return false;
+            }
+            if (candidate == 50)
+            {
+                return false;
+            } else if (candidate == 50)
+            {
+                return false;
+            }             
+            
             throw new NotImplementedException("Please create a test first.");
         }
          
