@@ -3,9 +3,9 @@ on:
 
   workflow_dispatch:
     
-  # push:
-  #  branches:
-  #    - develop
+  push:
+    branches:
+       [evelop, master]
       
   pull_request:
     types: [opened, synchronize, reopened]
