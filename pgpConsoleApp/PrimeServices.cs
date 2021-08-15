@@ -17,7 +17,13 @@ namespace Prime.Services
             Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
             Console.ReadKey();
         }        
-        
+ 
+        static void InserindoDuplicidadeDeCodigoDois(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
+            Console.ReadKey();
+        }           
 
         public bool IsPrime(int candidate)
         {
