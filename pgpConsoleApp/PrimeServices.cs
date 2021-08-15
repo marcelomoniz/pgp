@@ -20,30 +20,7 @@ namespace Prime.Services
         
 
         public bool IsPrime(int candidate)
-        {
-            if (candidate == 1)
-            {
-                return false;
-            }
-            if (candidate == 1)
-            {
-                return false;
-            } else if (candidate == 1)
-            {
-                return false;
-            }
-            
-            if (candidate == 22)
-            {
-                return false;
-            }
-            if (candidate == 22)
-            {
-                return false;
-            } else if (candidate == 22)
-            {
-                return false;
-            }            
+        {  
             
             throw new NotImplementedException("Please create a test first.");
         }
