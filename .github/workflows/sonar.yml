@@ -2,10 +2,6 @@ name: Sonar
 on:
 
   workflow_dispatch:
-    
-  push:
-    branches:
-       [evelop, master]
       
   pull_request:
     types: [opened, synchronize, reopened]
