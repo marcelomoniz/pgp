@@ -3,11 +3,12 @@ on:
 
   workflow_dispatch:
     
-  push:
-    branches:
-      - develop
-  pull_request:
-    types: [opened, synchronize, reopened]
+  # push:
+  #  branches:
+  #    - develop
+      
+  # pull_request:
+  #  types: [opened, synchronize, reopened]
 jobs:
   build:
     name: Build
