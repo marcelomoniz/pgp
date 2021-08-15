@@ -7,7 +7,7 @@ namespace Prime.Services
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("selec * from tabela where id='"+arg[0]+"'");
+            Console.WriteLine("selec * from tabela where id='"+args[0]+"'");
             Console.ReadKey();
         }
 
