@@ -22,8 +22,8 @@ namespace Prime.UnitTests.Services
         }
 
         [DataTestMethod]
-        [DataRow(-1)]
-        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(1)]
         [DataRow(1)]
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
         {
