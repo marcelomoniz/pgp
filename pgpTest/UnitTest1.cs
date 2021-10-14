@@ -10,6 +10,7 @@ namespace Prime.UnitTests.Services
 
         public PrimeService_IsPrimeShould()
         {
+            //comentario//
             _primeService = new PrimeService();
         }
 
@@ -25,6 +26,7 @@ namespace Prime.UnitTests.Services
         [DataRow(0)]
         [DataRow(1)]
         [DataRow(2)]
+        [DataRow(3)]
         //[DataRow(0)]
         //[DataRow(2)]
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
